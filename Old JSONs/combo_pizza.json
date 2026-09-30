@@ -1,0 +1,174 @@
+{
+  "active": true,
+  "category": "Combos",
+  "category_order": 3,
+  "category_order_sub_category_order_product_order": "3#3#1",
+  "comments": false,
+  "configuration": {
+    "element": "value"
+  },
+  "country": "MX",
+  "country_menu": "MX#VIP",
+  "is_package": false,
+  "menu": "VIP",
+  "menu_name": "VIP",
+  "order": 1,
+  "platform_active": {
+    "android": true,
+    "ios": true,
+    "kiosk": true,
+    "web": true
+  },
+  "product": "22332",
+  "product_description": {
+    "EN": "Una pizza a su selección, acompañado con 150 g de papas twister y un refresco jumbo. ",
+    "ES": "Una pizza a su selección, acompañado con 150 g de papas twister y un refresco jumbo. "
+  },
+  "product_name": {
+    "EN": "Combo Pizza",
+    "ES": "Combo Pizza"
+  },
+  "product_structure": "combo",
+  "product_type": "sellable",
+  "promotion_type": "normal",
+  "resource": {
+    "app": {
+      "icon": "/redesign/MX/menus/vip/maxi_hotdog_small.png",
+      "normal": "/redesign/MX/menus/vip/combo_pizza_small.jpg",
+      "promotional": "/redesign/MX/menus/vip/combo_pizza_promotional.jpg",
+      "wide": "/redesign/MX/menus/vip/combo_pizza_wide.jpg"
+    },
+    "web": {
+      "icon": "/redesign/MX/menus/vip/maxi_hotdog_small.png",
+      "normal": "/redesign/MX/menus/vip/combo_pizza_small.jpg",
+      "promotional": "/redesign/MX/menus/vip/combo_pizza_promotional.jpg",
+      "wide": "/redesign/MX/menus/vip/combo_pizza_wide.jpg"
+    }
+  },
+  "sellable": true,
+  "settings": [
+    {
+      "comments": "",
+      "modifier_list": [
+        {
+          "default": [
+            "14089"
+          ],
+          "has_rules": false,
+          "modifier_product_list": [
+            "14089"
+          ],
+          "order": 1,
+          "rules": {
+            "max": 1,
+            "min": 1
+          },
+          "subtitle": "Tamaño de tu",
+          "title": "SELECCIONA EL TAMAÑO",
+          "type": "size"
+        },
+        {
+          "default": [
+            "14118"
+          ],
+          "has_rules": false,
+          "modifier_product_list": [
+            "14118",
+            "14119",
+            "14120",
+            "17571",
+            "19188",
+            "21615",
+            "23223",
+            "21619",
+            "26555",
+            "14125"
+          ],
+          "order": 2,
+          "rules": {
+            "max": 1,
+            "min": 1
+          },
+          "subtitle": "Sabor de tu",
+          "title": "ELIGE EL SABOR",
+          "type": "flavor"
+        },
+        {
+          "default": [
+            "18506"
+          ],
+          "has_rules": true,
+          "modifier_product_list": [
+            "18506",
+            "18507",
+            "18508"
+          ],
+          "order": 3,
+          "rules": {
+            "max": 1,
+            "min": 0
+          },
+          "subtitle": "hielo de tu:",
+          "title": "Cantidad de hielo",
+          "type": "ingredient"
+        }
+      ],
+      "order": 1,
+      "subtitle": "Refresco",
+      "title": "Selecciona el sabor de tu refresco",
+      "type": "compound"
+    },
+    {
+      "comments": "",
+      "modifier_list": [
+        {
+          "default": [
+            "22330"
+          ],
+          "has_rules": false,
+          "modifier_product_list": [
+            "22330"
+          ],
+          "order": 1,
+          "rules": {
+            "max": 1,
+            "min": 1
+          },
+          "subtitle": "Tamaño de tu",
+          "title": "Selecciona el tamaño",
+          "type": "size"
+        },
+        {
+          "default": [
+            "22325"
+          ],
+          "has_rules": false,
+          "modifier_product_list": [
+            "22325",
+            "22326",
+            "22327",
+            "22328"
+          ],
+          "order": 2,
+          "rules": {
+            "max": 1,
+            "min": 1
+          },
+          "subtitle": "Salsa",
+          "title": "ELIGE TU SALSA",
+          "type": "flavor"
+        }
+      ],
+      "order": 1,
+      "subtitle": "Pizza",
+      "title": "Pizza",
+      "type": "compound"
+    }
+  ],
+  "show_price": {
+    "combo": false,
+    "compound": true
+  },
+  "sub_category": " ",
+  "sub_category_order": 1
+}
